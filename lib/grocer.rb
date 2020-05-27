@@ -20,7 +20,7 @@ if find_item_by_name_in_collection(cart[i][:item], cart)
 end
     i += 1
   end
-cart
+pp cart
 end
 
 
