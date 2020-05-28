@@ -13,11 +13,19 @@ end
 def consolidate_cart(cart)
 i = 0
 while i < cart.length
-cart[i][:count] = 1
+cart[i][:count] = 0
 
-    i += 1
+j= 0
+while j < cart.length
+  
+  if cart[i] == cart[j]
+    cart[j][:count] += 1
   end
-cart
+          j += 1
+        end
+      i += 1
+    end
+  cart
 end
 
 
