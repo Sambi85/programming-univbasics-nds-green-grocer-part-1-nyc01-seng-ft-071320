@@ -16,8 +16,8 @@ while i < cart.length
 cart[i][:count] = 0
 
 if cart[i]
-  cart[i][:count] += 1
-  puts cart
+puts cart[i][:count] += 1
+
 end
     i += 1
   end
