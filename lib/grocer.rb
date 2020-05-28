@@ -17,10 +17,10 @@ cart[i][:count] = 0
 
 if cart[i]
   cart[i][:count] += 1
+  puts cart
 end
     i += 1
   end
-pp cart
 end
 
 
