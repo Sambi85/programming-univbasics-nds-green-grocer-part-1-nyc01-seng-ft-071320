@@ -15,7 +15,7 @@ i = 0
 while i < cart.length
 cart[i][:count] = 0
 
-if find_item_by_name_in_collection(cart[i][:item], cart)
+if cart[i]
   cart[i][:count] += 1
 end
     i += 1
