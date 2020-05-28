@@ -14,10 +14,10 @@ def consolidate_cart(cart)
 i = 0
 while i < cart.length
 cart[i][:count] = 1
-puts cart
 
     i += 1
   end
+cart
 end
 
 
