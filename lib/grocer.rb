@@ -16,7 +16,6 @@ while i < cart.length
 cart[i][:count] = 1
 puts cart
 
-end
     i += 1
   end
 end
